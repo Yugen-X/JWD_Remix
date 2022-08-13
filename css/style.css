@@ -13,6 +13,7 @@ body {
   width: 300px;
   float: right;
   margin-top: 2%;
+  margin-right: .2em;
 }
 
 h1 {
@@ -23,6 +24,7 @@ h1 {
   color: #E0E1DD;
   text-shadow: 10px 5px 2px #707070;
   margin-top: 2%;
+  margin-left: .2em;
   margin-bottom: 0;
 }
 
@@ -38,11 +40,11 @@ h1 {
   font-size: 2rem;
 }
 
-a {
-text-decoration: none;
-font-weight: 600;
-color: #E0E1DD;
-text-shadow: 10px 5px 2px #707070;
+.new-font {
+  text-decoration: none;
+  font-weight: 600;
+  color: #E0E1DD;
+  text-shadow: 10px 5px 2px #707070;
 }
 
 .menu{
@@ -64,22 +66,13 @@ div {
   margin: 0;
 }
 
-.chicken {
-  width: 20em;
-  height: auto;
-}
-
-.pasta {
-  width: 20em;
-  height: auto;
-}
-
-.pic-menu {
+.pic-menu, .pic-menu2{
   display: flex;
   justify-content: space-between;
-  width: 88.6em;
-  height: 55em;
-  background-color: #5B91D7;
+  flex-direction: row;
+  width: 0 auto;
+  height: auto;
+  margin-top: 3em;
 }
 
 .apps {
@@ -99,11 +92,22 @@ div {
   margin-right: 1em;
 }
 
-.child {
-  float: left;
+.drinks {
+  width: 500px;
+  height: 500px;
 }
 
+.mains {
+  width: 500px;
+  height: 500px;
+  margin-left: 1em;
+}
 
+.healthy {
+  width: 500px;
+  height: 500px;
+  margin-right: 1em;
+}
 
 /* Start first Card */
 img {
@@ -174,4 +178,5 @@ footer {
   text-align: center;
   font-size: 2.2rem;
   margin: 0;
+  color: #E0E1DD;
 }
