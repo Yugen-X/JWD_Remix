@@ -64,6 +64,47 @@ div {
   margin: 0;
 }
 
+.chicken {
+  width: 20em;
+  height: auto;
+}
+
+.pasta {
+  width: 20em;
+  height: auto;
+}
+
+.pic-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 88.6em;
+  height: 55em;
+  background-color: #5B91D7;
+}
+
+.apps {
+  width: 500px;
+  height: 500px;
+  margin-left: 1em;
+}
+
+.entrees {
+  width: 500px;
+  height: 500px;
+}
+
+.desserts {
+  width: 500px;
+  height: 500px;
+  margin-right: 1em;
+}
+
+.child {
+  float: left;
+}
+
+
+
 /* Start first Card */
 img {
   width: 100%;
