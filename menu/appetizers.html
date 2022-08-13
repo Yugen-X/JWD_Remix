@@ -9,26 +9,59 @@
 </head>
 
 <body>
+  
   <div class="content-wrapper">
     <nav class="header">
-      <a href="../index.html">Home</a>
-      <a href="appetizers.html">Appetizers</a>
-      <a href="entrees.html">Entree's</a>
-      <a href="desserts.html">Desserts</a>
-      <a href="drinks.html">Drinks</a>
+      <a class="new-font" href="../index.html">Home</a>
+      <a class="new-font" href="./appetizers.html">Appetizers</a>
+      <a class="new-font" href="./entrees.html">Entree's</a>
+      <a class="new-font" href="./desserts.html">Desserts</a>
+      <a class="new-font" href="./drinks.html">Drinks</a>
     </nav>
-      <img  id="logo" src="../images/jwd-eatery-logo.png"/>
-    <h1>Welcome to JWD Eatery
-      <br>
-      We've got what you need
-      <br>
-      With prices that make you 
-      <br>
-      Turn at break neck speeds !
-    </h1>
+      <!-- <img  id="logo" src="../images/jwd-eatery-logo.png"/> -->
   </div>
   <div id="container">
     <div class="card">
+      <img src="../images/chad-montano-gE28aTnlqJA-unsplash.jpg" alt="Chicken wings and sauce!">
+      <div class="name color">Chicken Wings <span class="price">$10.99</span></div>
+      <hr>
+      <p class="description color">Crispy deep fried chicken wings, hand tossed in a sauce of, your choosing. Comes with your choice of dipping sauce as well.</p>
+      <button type="submit">Add To Cart</button>
+      <button type="submit">Customize</button>
+    </div>
+    <div class="card2">
+      <img class="Chips" src="../images/Chips-and-Salsa.jpg" alt="Chicken wings and sauce!">
+      <div class="name color">Chips And Salasa <span class="price">$13.49</span></div>
+      <hr>
+      <p class="description color">Freshly made white corn tortilla chips are served with house-made pico de gallo, fresh jalapeños, chopped cilantro, sour cream and guacamole, and lime wedges.</p>
+      <button type="submit">Add To Cart</button>
+    </div>
+    <div class="card2">
+      <img src="../images/chad-montano-gE28aTnlqJA-unsplash.jpg" alt="Chicken wings and sauce!">
+      <div class="name color">Chicken Wings <span class="price">$10.99</span></div>
+      <hr>
+      <p class="hand-tossed color">Hand Tossed Sauces</p>
+      <select name="tossed-sauces" id="tossed">
+        <option value="Select">Select One</option>
+        <option value="Bbq">BBQ</option>
+        <option value="Honey BBQ">Honey BBQ</option>
+        <option value="Garlic-Sauce">Garlic Sauce</option>
+        <option value="Flamin-Hot">Flamin Hot</option>
+        <option value="BuffaloSauce">Buffalo Sauce</option>
+      </select>
+      <p class="dipping-sauces color">Dipping Sauces</p>
+      <select name="dipping-sauces" id="dips">
+        <option value="Select">Select One</option>
+        <option value="Blue-Cheese">Blue Cheese</option>
+        <option value="Ranch">Ranch</option>
+        <option value="Honey-Mustard">Honey Mustard</option>
+        <option value="Sweet-and-Sour">Sweet And Sour</option>
+        <option value="Parmesan-Garlic">Parmesan Garlic</option>
+      </select>
+      <p class="description color">Crispy deep fried chicken wings, hand tossed in a sauce of, your choosing. Comes with your choice of dipping sauce as well.</p>
+      <button type="submit">Add To Cart</button>
+    </div>
+    <div class="card2">
       <img src="../images/chad-montano-gE28aTnlqJA-unsplash.jpg" alt="Chicken wings and sauce!">
       <div class="name color">Chicken Wings <span class="price">$10.99</span></div>
       <hr>
@@ -54,6 +87,16 @@
       <button type="submit">Add To Cart</button>
     </div>
   </div>
+  <footer>
+    <form>
+      <section class="submission">
+        <p class="form-text">Enter your email for a copy of the menu</p>
+        <input type="text" name="email"/>
+        <input type="submit" name="submit" value="submit"/>
+      </section>
+    </form>
+    <p class="copyright">Made With &#128151 by Melvin</p>
+  </footer>
 
 </body>
 </html>
