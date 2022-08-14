@@ -78,6 +78,7 @@ div {
 .pic-menu2 {
   display: flex;
   justify-content: space-between;
+  margin-top: 2em;
 }
 
 .apps {
@@ -111,6 +112,7 @@ div {
 .healthy {
   width: 500px;
   height: 500px;
+  margin-right: 1em;
 
 }
 
