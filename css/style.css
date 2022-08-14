@@ -66,13 +66,18 @@ div {
   margin: 0;
 }
 
-.pic-menu, .pic-menu2{
+.pic-menu {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   width: 0 auto;
   height: auto;
   margin-top: 3em;
+}
+
+.pic-menu2 {
+  display: flex;
+  justify-content: space-between;
 }
 
 .apps {
@@ -106,7 +111,7 @@ div {
 .healthy {
   width: 500px;
   height: 500px;
-  margin-right: 1em;
+
 }
 
 /* Start first Card */
