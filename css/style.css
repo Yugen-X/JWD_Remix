@@ -9,13 +9,6 @@ body {
   flex-direction: column;
 }
 
-#logo{
-  width: 300px;
-  float: right;
-  margin-top: 2%;
-  margin-right: .2em;
-}
-
 h1 {
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 2px;
@@ -68,7 +61,7 @@ div {
 
 .pic-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: row;
   width: 0 auto;
   height: auto;
@@ -77,43 +70,42 @@ div {
 
 .pic-menu2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 2em;
 }
 
 .apps {
-  width: 500px;
-  height: 500px;
-  margin-left: 1em;
+  width: 360px;
+  height: 360px;
 }
 
 .entrees {
-  width: 500px;
-  height: 500px;
+  width: 360px;
+  height: 360px;
 }
 
 .desserts {
-  width: 500px;
-  height: 500px;
-  margin-right: 1em;
+  width: 360px;
+  height: 360px;
 }
 
 .drinks {
-  width: 500px;
-  height: 500px;
+  width: 360px;
+  height: 360px;
 }
 
 .mains {
-  width: 500px;
-  height: 500px;
-  margin-left: 1em;
+  width: 360px;
+  height: 360px;
 }
 
 .healthy {
-  width: 500px;
-  height: 500px;
-  margin-right: 1em;
+  width: 360px;
+  height: 360px;
+}
 
+.chips {
+  height: 362px;
 }
 
 /* Start first Card */
@@ -123,7 +115,6 @@ div img {
 }
 
 #container {
-  background-color: #5B91D7;
   width: 0 auto;
   display: flex;
   justify-content: space-around;
