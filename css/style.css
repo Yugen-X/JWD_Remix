@@ -104,10 +104,6 @@ div {
   height: 360px;
 }
 
-.chips {
-  height: 362px;
-}
-
 /* Start first Card */
 div img {
   width: 100%;
@@ -121,14 +117,15 @@ div img {
   margin-top: 5%;
 }
 
-.card, .card2 {
+.card {
   background-color: #415A77;
   width: 300px;
   padding: 8px;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.50);
   box-shadow: 20px -5px 5px rgba(0, 0, 0, 0.50);
   margin-top: 30px;
+  transition: width 1.9s;
 }
 
 button {
@@ -167,8 +164,9 @@ button {
     border-radius: 5px;
   }
 
-  .card:hover {
+  .card:hover,.card2:hover {
     width: 350px;
+    height: auto;
   }
 /* End of first card */
 
